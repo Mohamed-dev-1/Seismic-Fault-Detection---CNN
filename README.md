@@ -1,6 +1,6 @@
 # Seismic Fault Detection using CNN
 
-A hands-on machine learning project that detects geological faults in seismic sections using a convolutional neural network (CNN), built end-to-end on synthetic SEGY data.
+A hands-on machine learning project that **detects geological faults in seismic sections using a convolutional neural network (CNN), built end-to-end on synthetic SEGY data**.
 
 ## Overview
 
