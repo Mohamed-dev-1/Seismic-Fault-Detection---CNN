@@ -4,7 +4,12 @@ A hands-on machine learning project that **detects geological faults in seismic 
 
 ## Overview
 
-Seismic exploration produces images of underground rock layers by recording sound wave reflections beneath the earth's surface. Interpreters look for faults, breaks or offsets in these layers — because they are important for locating oil and gas reservoirs, assessing geological hazards, and ensuring drilling safety. Manually scanning large seismic datasets for faults is slow and inconsistent, which motivates automating the task with machine learning.
+* Seismic exploration produces images of underground rock layers by recording sound wave reflections beneath the earth's surface. 
+
+* Interpreters look for faults, breaks or offsets in these layers, because they are important for locating oil and gas reservoirs, assessing geological hazards, and ensuring drilling safety. 
+
+* Manually scanning large seismic datasets for faults is **slow and inconsistent**, which motivates automating the task with machine learning.
+
 
 This project builds a complete pipeline that mirrors the real-world workflow used in the seismic industry:
 
@@ -14,11 +19,12 @@ This project builds a complete pipeline that mirrors the real-world workflow use
 4. Train a CNN to classify each seismic section as containing a fault or not.
 5. Evaluate the model and inspect misclassified examples.
 
-The goal is to practice the full pipeline — SEGY file I/O, trace headers and geometry, and a PyTorch training loop — on a small, fully controlled synthetic dataset before applying the same skills to real seismic data.
+The goal is to practice the full pipeline : SEGY file I/O, trace headers and geometry, and a PyTorch training loop, on a small, fully controlled synthetic dataset before applying the same skills to real seismic data.
 
 ## Goal
 
-Build a classification model using a CNN that looks at a seismic 2D image — a picture of underground rock layers — and automatically answers: is there a fault (a break in the layers) in this section, or not?
+Build a classification model using a CNN that looks at a seismic 2D image, which is a picture of underground rock layers, and automatically answers: is there a fault (a break in the layers) in this section, or not?
+
 
 ## Pipeline
 
@@ -40,11 +46,11 @@ Report training loss and validation accuracy. Inspect misclassified sections to 
 ## Tech Stack
 
 - Python
-- segyio — SEGY file reading and writing
-- NumPy — synthetic data generation
-- pandas — geometry and metadata handling
-- Matplotlib — visualization
-- PyTorch — CNN model and training loop
+- segyio : SEGY file reading and writing
+- NumPy : synthetic data generation
+- pandas : geometry and metadata handling
+- Matplotlib : visualization
+- PyTorch : CNN model and training loop
 
 ## Repository Structure
 
