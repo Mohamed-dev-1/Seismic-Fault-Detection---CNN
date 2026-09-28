@@ -4,7 +4,7 @@ A hands-on machine learning project that **detects geological faults in seismic 
 
 ## Overview
 
-Seismic exploration produces images of underground rock layers by recording sound wave reflections beneath the earth's surface. Interpreters look for faults — breaks or offsets in these layers — because they are important for locating oil and gas reservoirs, assessing geological hazards, and ensuring drilling safety. Manually scanning large seismic datasets for faults is slow and inconsistent, which motivates automating the task with machine learning.
+Seismic exploration produces images of underground rock layers by recording sound wave reflections beneath the earth's surface. Interpreters look for faults, breaks or offsets in these layers — because they are important for locating oil and gas reservoirs, assessing geological hazards, and ensuring drilling safety. Manually scanning large seismic datasets for faults is slow and inconsistent, which motivates automating the task with machine learning.
 
 This project builds a complete pipeline that mirrors the real-world workflow used in the seismic industry:
 
